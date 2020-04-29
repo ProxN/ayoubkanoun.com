@@ -23,7 +23,7 @@ export default {
     small: '15px',
     regular: '16px',
     medium: '20px',
-    large: '',
-    xlarge: '',
+    large: '40px',
+    xlarge: '70px',
   },
 };
