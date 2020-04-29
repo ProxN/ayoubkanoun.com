@@ -13,7 +13,8 @@ export default createGlobalStyle`
         height:100%;
         width:100%;
     }
-    #root,
+    #___gatsby,
+    #gatsby-focus-wrapper,
     body{
         width:100%;
         height:100%;

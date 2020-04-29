@@ -3,9 +3,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { ThemeProvider } from 'styled-components';
 import Fonts from './Fonts';
+import Header from '../Header';
 import Theme from '../../styles/theme.styles';
 import GlobalStyles from '../../styles/global.styles';
-import LayoutContainer from './styles';
+import LayoutContainer, { Wrapper } from './styles';
 
 const Layout = ({ children }) => {
   return (
@@ -13,7 +14,10 @@ const Layout = ({ children }) => {
       <LayoutContainer>
         <GlobalStyles />
         <Fonts />
-        {children}
+        <Wrapper>
+          <Header />
+          {children}
+        </Wrapper>
       </LayoutContainer>
     </ThemeProvider>
   );
