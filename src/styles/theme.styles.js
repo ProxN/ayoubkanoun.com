@@ -9,13 +9,13 @@ export default {
       dark: '#FFC25C',
     },
     gray: {
-      dark: '#c2c2e1',
+      dark: '#c1c9d4',
       mid: '#dfe3e9',
       light: '#eaecf0',
     },
   },
   fonts: {
-    primary: 'Manrope, sans serif',
+    primary: 'Fira Sans, sans serif',
     secondary: `'Baloo Tamma 2', sans serif`,
   },
   fontSizes: {

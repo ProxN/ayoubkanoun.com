@@ -13,4 +13,5 @@ export const Wrapper = styled.div`
   width: 100%;
   box-shadow: 0 0 40px -2px rgba(0, 0, 0, 0.3);
   border-radius: 4px;
+  overflow-y: scroll;
 `;
