@@ -21,6 +21,7 @@ export const Heading = styled.h2`
   border-left: none;
   margin-bottom: 30px;
   padding: 25px 20px;
+  border-right: none;
 `;
 
 export const ProjectsList = styled.div`

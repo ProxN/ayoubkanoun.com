@@ -42,4 +42,19 @@ export default createGlobalStyle`
           font-family: ${theme.fonts.secondary};
         `};
     }
+
+
+    ::-webkit-scrollbar {
+        background:#29303b;
+        width:5px;
+    }
+    ::-webkit-scrollbar-thumb {
+        background:#1b2027;
+        border-radius:5px;
+
+    }
+
+
+   
+
 `;
