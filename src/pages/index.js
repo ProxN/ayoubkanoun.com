@@ -3,6 +3,7 @@ import Layout from '../components/layout';
 import Hero from '../views/Hero';
 import Projects from '../views/Projects';
 import Contact from '../views/Contact';
+import Footer from '../views/Footer';
 
 const IndexPage = () => {
   return (
@@ -10,6 +11,7 @@ const IndexPage = () => {
       <Hero />
       <Projects />
       <Contact />
+      <Footer />
     </Layout>
   );
 };
