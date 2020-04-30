@@ -19,7 +19,7 @@ export const Heading = styled.h2`
   text-align: center;
   line-height: 9px;
   border-left: none;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   padding: 25px 20px;
 `;
 
