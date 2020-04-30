@@ -8,7 +8,7 @@ const Header = () => {
     <HeaderContainer>
       <NavBar>
         <LogoLink>
-          <img src={Logo} alt="Ayoub Idelkanoun" />
+          <Logo />
         </LogoLink>
         <Menu />
       </NavBar>

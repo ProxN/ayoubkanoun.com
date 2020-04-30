@@ -19,13 +19,13 @@ const Hero = () => {
         </Subtitle>
         <Social>
           <SocialLink>
-            <img src={Github} alt="Github" />
+            <Github />
           </SocialLink>
           <SocialLink>
-            <img src={Linkdin} alt="Linkdin" />
+            <Linkdin />
           </SocialLink>
           <SocialLink>
-            <img src={Twitter} alt="Twitter" />
+            <Twitter />
           </SocialLink>
         </Social>
       </HeroContent>

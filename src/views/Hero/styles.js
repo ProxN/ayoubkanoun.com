@@ -49,9 +49,9 @@ export const Social = styled.div`
 
 export const SocialLink = styled.a`
   cursor: pointer;
-  img {
-    width: 25px;
-    height: 25px;
+  svg {
+    width: 20px;
+    height: 20px;
   }
   :not(:last-child) {
     margin-right: 15px;
