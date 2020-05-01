@@ -19,12 +19,7 @@ const Form = () => {
   //   setState({ [target.name]: target.value });
   // };
   return (
-    <ContactForm
-      name="contact"
-      method="post"
-      data-netlify="true"
-      data-netlify-honeypot="bot-field"
-    >
+    <ContactForm name="contact" method="post" netlify>
       <InputGroup>
         <Label>Full Name</Label>
         <Input placeholder="John Doe" name="name" />
