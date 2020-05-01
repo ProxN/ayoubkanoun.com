@@ -1,33 +1,26 @@
 import React from 'react';
-import Github from '../../assets/Github.svg';
-import Linkdin from '../../assets/Linkdin.svg';
-import Twitter from '../../assets/Twitter.svg';
-
-import { Section, HeroContent, Subtitle, Title, Social, SocialLink } from './styles';
+import Social from './components/Social';
+import { Section, HeroContent, Subtitle, Title } from './styles';
 
 const Hero = () => {
   return (
     <Section>
       <HeroContent>
         <Title>
-          Hello 👋🏻,
+          Hello
+          <span aria-label="hello emoji" role="img">
+            👋🏻
+          </span>
+          ,
           <br />
-          I'm <span>ayoub idelkanoun</span>
+          I&apos;m
+          <span> ayoub idelkanoun</span>
         </Title>
         <Subtitle>
-          I'm a Front-End Developer<span>.</span>
+          I&apos;m a Front-End Developer
+          <span>.</span>
         </Subtitle>
-        <Social>
-          <SocialLink>
-            <Github />
-          </SocialLink>
-          <SocialLink>
-            <Linkdin />
-          </SocialLink>
-          <SocialLink>
-            <Twitter />
-          </SocialLink>
-        </Social>
+        <Social />
       </HeroContent>
     </Section>
   );

@@ -5,9 +5,6 @@ const Menu = () => {
   return (
     <MenuList>
       <MenuItem>
-        <MenuLink>About Me</MenuLink>
-      </MenuItem>
-      <MenuItem>
         <MenuLink>Projects</MenuLink>
       </MenuItem>
       <MenuItem>
