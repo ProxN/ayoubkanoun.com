@@ -12,6 +12,7 @@ export default createGlobalStyle`
         box-sizing:border-box;
         height:100%;
         width:100%;
+
     }
     #___gatsby,
     #gatsby-focus-wrapper,

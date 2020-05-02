@@ -4,7 +4,7 @@ import { Section, ContactContent, Heading } from './styles';
 
 const Contact = () => {
   return (
-    <Section>
+    <Section id="contact">
       <ContactContent>
         <Heading>
           Get In Touch

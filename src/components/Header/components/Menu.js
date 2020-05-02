@@ -5,10 +5,10 @@ const Menu = () => {
   return (
     <MenuList>
       <MenuItem>
-        <MenuLink>Projects</MenuLink>
+        <MenuLink href="#projects">Projects</MenuLink>
       </MenuItem>
       <MenuItem>
-        <MenuLink>Contact Me</MenuLink>
+        <MenuLink href="#contact">Contact Me</MenuLink>
       </MenuItem>
     </MenuList>
   );

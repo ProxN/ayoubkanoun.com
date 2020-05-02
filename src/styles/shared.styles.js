@@ -2,12 +2,12 @@ import styled, { css } from 'styled-components';
 
 export const Section = styled.section`
   height: 100vh;
-  padding: 100px 0;
+  padding: 150px 0;
 `;
 
 export const Heading = styled.h2`
   ${({ theme }) => css`
-    font-size: ${theme.fontSizes.larges};
+    font-size: ${theme.fontSizes.large};
     color: ${theme.colors.gray.mid};
     border: 5px solid ${theme.colors.primary.light};
     background: ${theme.colors.primary.dark};

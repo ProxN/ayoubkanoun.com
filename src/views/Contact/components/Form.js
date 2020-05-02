@@ -9,28 +9,27 @@ import {
 } from './Form.styles';
 
 const Form = () => {
-  // const [state, setState] = useState({
-  //   name: '',
-  //   email: '',
-  //   message: '',
-  // });
-
-  // const handleChange = ({ target }) => {
-  //   setState({ [target.name]: target.value });
-  // };
   return (
-    <ContactForm name="contact" method="post" netlify>
+    <ContactForm
+      action="https://getform.io/f/1f1830d1-9a47-4fe0-99ec-70dd84b64e48"
+      method="POST"
+    >
       <InputGroup>
         <Label>Full Name</Label>
-        <Input placeholder="John Doe" name="name" />
+        <Input placeholder="John Doe" name="name" type="text" />
       </InputGroup>
       <InputGroup>
         <Label>Email</Label>
-        <Input placeholder="example@gmail.com" name="email" />
+        <Input placeholder="example@gmail.com" name="email" type="email" />
       </InputGroup>
       <InputGroup>
         <Label>Message</Label>
-        <TextArea placeholder="Type your message here." rows="8" name="message" />
+        <TextArea
+          placeholder="Type your message here."
+          rows="8"
+          type="text"
+          name="message"
+        />
       </InputGroup>
       <Button>Send Message</Button>
     </ContactForm>

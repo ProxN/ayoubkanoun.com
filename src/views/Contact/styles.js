@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import { Heading as H2 } from '../../styles/shared.styles';
 
 export const Section = styled.section`
   height: 100vh;
@@ -15,18 +16,6 @@ export const ContactContent = styled.div`
   border-left: none;
   border-bottom: none;
 `;
-export const Heading = styled.h2`
-  ${({ theme }) => css`
-    font-size: ${theme.fontSizes.larges};
-    color: ${theme.colors.gray.mid};
-    span {
-      color: ${theme.colors.yellow.dark};
-    }
-  `};
-  display: block;
-  text-align: center;
-  line-height: 9px;
-  border-left: none;
-  margin-bottom: 30px;
-  padding: 25px 20px;
+export const Heading = styled(H2)`
+  border: none;
 `;

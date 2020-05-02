@@ -53,6 +53,7 @@ export const Button = styled.button`
     font-size: ${theme.fontSizes.xsmall};
     border: 2px solid ${theme.colors.primary.light};
   `};
+  cursor: pointer;
   width: max-content;
   padding: 10px 20px;
   margin-top: 15px;
