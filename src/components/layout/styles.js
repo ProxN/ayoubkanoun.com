@@ -18,5 +18,6 @@ export const Wrapper = styled.div`
     scrollbar-color: ${theme.colors.primary.dark} ${theme.colors.primary.light};
     background: ${theme.colors.primary.mid};
   `};
+  position: relative;
   scroll-behavior: smooth;
 `;

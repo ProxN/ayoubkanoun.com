@@ -1,17 +1,17 @@
 import styled, { css } from 'styled-components';
 import media from '../../../styles/media.styles';
 
-export const MenuList = styled.ul`
-  list-style: none;
-  display: flex;
+export const MenuMobileContainer = styled.div`
+  position: absolute;
+  top: 70px;
+  right: 0;
+  display: none;
   ${media.tablet`
-    display:none;
+    display:block;
   `};
 `;
 
-export const MenuItem = styled.li`
-  margin: 0 15px;
-`;
+export const MenuLinks = styled.div``;
 
 export const MenuLink = styled.a`
   cursor: pointer;
@@ -22,9 +22,17 @@ export const MenuLink = styled.a`
     font-family: ${theme.fonts.secondary};
     color: ${theme.colors.gray.mid};
     font-size: ${theme.fontSizes.regular};
+    background: ${theme.colors.primary.dark};
+    border: 5px solid ${theme.colors.primary.light};
 
     :hover {
       color: ${theme.colors.yellow.dark};
     }
   `};
+  padding: 10px;
+  display: block;
+  border-right: none;
+  :not(:last-child) {
+    margin-bottom: 15px;
+  }
 `;

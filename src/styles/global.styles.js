@@ -54,8 +54,12 @@ export default createGlobalStyle`
         border-radius:5px;
 
     }
-
-
-   
+    
+    .backward{
+        transition:transform 0.2s ease, width 0.18s 0.2s ease;
+    }
+    .forward{
+        transition: width 0.18s ease, transform 0.2s 0.18s ease;
+    }
 
 `;
