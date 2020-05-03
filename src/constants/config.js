@@ -6,10 +6,6 @@ module.exports = {
   siteKeywords:
     'ayoub Idelkanoun,front-end developer,web developer,morocoo web web developer,javascript',
   googleVerification: '88CPTnKcSQeWAFbAbgXWDVUR-38ZzTmT6QPnd2i-7zo',
-  navLinks: [
-    { name: 'Projects', url: '#projects' },
-    { name: 'Contact Me', url: '#contact' },
-  ],
   socialLinks: [
     { name: 'Github', url: 'https://github.com/ProxN' },
     { name: 'Linkedin', url: 'https://www.linkedin.com/in/ayoubidelkanoun/' },

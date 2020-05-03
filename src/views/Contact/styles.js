@@ -16,6 +16,7 @@ export const ContactContent = styled.div`
   `};
   border-left: none;
   border-bottom: none;
+  min-height: calc(100vh - 150px);
   ${media.thone`
     width:100%;
     border-right:none;

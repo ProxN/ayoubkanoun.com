@@ -17,7 +17,12 @@ export const ProjectImgContainer = styled.a`
 
 export const ProjectImage = styled(Img)`
   height: 250px;
+  filter: grayscale(80%);
   max-width: 100%;
+  transition: all 0.4s ease-in-out;
+  :hover {
+    filter: grayscale(10%);
+  }
 `;
 
 export const ProjectContent = styled.div`
