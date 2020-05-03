@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import media from '../../styles/media.styles';
 
 export const FooterContainer = styled.footer`
   ${({ theme }) => css`
@@ -7,6 +8,10 @@ export const FooterContainer = styled.footer`
   height: 60px;
   display: flex;
   justify-content: flex-end;
+  ${media.thone`
+    background:${({ theme }) => theme.colors.primary.mid};
+    justify-content:none ;
+  `};
 `;
 
 export const FooterContent = styled.div`
@@ -16,6 +21,11 @@ export const FooterContent = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  ${media.thone`
+    width:100%;
+    flex-direction:column;
+    padding:5px 0;
+  `};
 `;
 
 export const FooterText = styled.p`

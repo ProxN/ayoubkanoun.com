@@ -32,7 +32,7 @@ export const MenuLink = styled.a`
   padding: 10px;
   display: block;
   border-right: none;
-  :not(:last-child) {
-    margin-bottom: 15px;
+  :first-child {
+    margin-bottom: 10px;
   }
 `;

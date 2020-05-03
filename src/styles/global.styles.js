@@ -46,11 +46,11 @@ export default createGlobalStyle`
 
 
     ::-webkit-scrollbar {
-        background:#29303b;
+        background:#1b2027;
         width:5px;
     }
     ::-webkit-scrollbar-thumb {
-        background:#1b2027;
+        background:#29303b;
         border-radius:5px;
 
     }
