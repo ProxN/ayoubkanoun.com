@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import { Link } from 'gatsby';
+import { animated } from 'react-spring';
 import media from '../../styles/media.styles';
 
 export const HeaderContainer = styled.header`
@@ -19,6 +21,8 @@ export const NavBar = styled.nav`
   `};
 `;
 
-export const LogoLink = styled.div`
+export const LogoWrapper = styled(animated.div)``;
+
+export const LogoLink = styled(Link)`
   cursor: pointer;
 `;

@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import { animated } from 'react-spring';
 import media from '../../../styles/media.styles';
 
 export const MenuList = styled.ul`
@@ -9,7 +10,7 @@ export const MenuList = styled.ul`
   `};
 `;
 
-export const MenuItem = styled.li`
+export const MenuItem = styled(animated.li)`
   margin: 0 15px;
 `;
 

@@ -15,7 +15,7 @@ export const LoaderContainer = styled.div`
 export const LoaderWrapper = styled.div`
   user-select: none;
   transition: all 0.3s;
-
+  opacity: ${(props) => (props.isMounted ? 1 : 0)};
   #A {
     opacity: 0;
   }
