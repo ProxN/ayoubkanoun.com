@@ -1,6 +1,7 @@
 import styled from 'styled-components';
+import { animated } from 'react-spring';
 
-export const Social = styled.div`
+export const Social = styled(animated.div)`
   margin-top: 10px;
 `;
 

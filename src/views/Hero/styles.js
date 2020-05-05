@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import { animated } from 'react-spring';
 import media from '../../styles/media.styles';
 
 export const Section = styled.section`
@@ -6,9 +7,10 @@ export const Section = styled.section`
   padding: 100px 0px;
 `;
 
-export const HeroContent = styled.div`
+export const HeroContent = styled(animated.div)`
   display: flex;
   width: max-content;
+  position: absolute;
   padding: 30px 100px;
   flex-direction: column;
   ${({ theme }) => css`
@@ -26,9 +28,10 @@ export const HeroContent = styled.div`
   ${media.phablet`
     padding:25px;
   `};
+  overflow: hidden;
 `;
 
-export const Title = styled.h1`
+export const Title = styled(animated.h1)`
   line-height: 1.2;
   ${({ theme }) => css`
     font-size: ${theme.fontSizes.xlarge};
@@ -57,7 +60,7 @@ export const Title = styled.h1`
   `};
 `;
 
-export const Subtitle = styled.h4`
+export const Subtitle = styled(animated.h4)`
   ${({ theme }) => css`
     font-weight: 400;
     line-height: 1.2;
