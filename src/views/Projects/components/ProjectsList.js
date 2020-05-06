@@ -1,5 +1,6 @@
 import React from 'react';
 import { graphql, StaticQuery } from 'gatsby';
+import { Zoom } from 'react-reveal';
 import Project from './Project';
 import Projects from './ProjectsList.styles';
 
@@ -41,10 +42,12 @@ const ProjectsList = () => (
       } = data;
       return (
         <Projects>
-          {edges.map(({ node }) => {
+          {edges.map(({ node }, i) => {
             const { frontmatter, html } = node;
             return (
-              <Project key={frontmatter.title} data={frontmatter} html={html} />
+              <Zoom duration={1000} delay={i * 200}>
+                <Project key={frontmatter.title} data={frontmatter} html={html} />
+              </Zoom>
             );
           })}
         </Projects>

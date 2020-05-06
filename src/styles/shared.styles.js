@@ -22,4 +22,5 @@ export const Heading = styled.h2`
   margin-bottom: 30px;
   padding: 25px 20px;
   border-right: none;
+  position: relative;
 `;
