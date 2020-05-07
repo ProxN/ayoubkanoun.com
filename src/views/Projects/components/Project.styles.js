@@ -36,6 +36,7 @@ export const ProjectName = styled.h4`
   `};
   line-height: 1.2;
   margin-bottom: 10px;
+  margin-top: 10px;
 `;
 
 export const ProjectDescription = styled.p`

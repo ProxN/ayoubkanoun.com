@@ -11,7 +11,7 @@ import GlobalStyles from '../../styles/global.styles';
 import LayoutContainer, { Wrapper } from './styles';
 
 const Layout = ({ children }) => {
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   return (
     <ThemeProvider theme={Theme}>

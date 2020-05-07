@@ -8,4 +8,4 @@ stack:
 image: 'anime_chart.jpg'
 ---
 
-A Anime Chart made with Next.js,This was my first Project after finishing a react cours. It fetches information from an API, and displays list of animes of each season.
+An Anime Chart website made with Next.js, This was my first Project after finishing a react course, It displays a list of anime for each season.
