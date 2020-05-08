@@ -33,10 +33,10 @@ const Project = ({ data, html }) => {
         </ProjectTechList>
       </ProjectContent>
       <ProjectLinks>
-        <ProjectLink target="_blank" href={demo}>
+        <ProjectLink rel="noopener noreferrer" target="_blank" href={demo}>
           Demo
         </ProjectLink>
-        <ProjectLink target="_blank" href={source}>
+        <ProjectLink rel="noopener noreferrer" target="_blank" href={source}>
           Source
         </ProjectLink>
       </ProjectLinks>

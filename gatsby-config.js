@@ -46,7 +46,7 @@ module.exports = {
           {
             resolve: 'gatsby-remark-external-links',
             options: {
-              target: '_blank',
+              target: '_self',
               rel: 'nofollow noopener noreferrer',
             },
           },

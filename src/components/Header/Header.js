@@ -26,7 +26,7 @@ const Header = () => {
     <HeaderContainer>
       <NavBar>
         <LogoWrapper style={logoSpring}>
-          <LogoLink to="/">
+          <LogoLink rel="noopener noreferrer" to="/">
             <Logo />
           </LogoLink>
         </LogoWrapper>
