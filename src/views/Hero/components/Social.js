@@ -26,7 +26,7 @@ const Social = () => {
   return (
     <Container style={socialAnimation}>
       {config.socialLinks.map((e) => (
-        <SocialLink target="_blank" href={e.url}>
+        <SocialLink key={e.name} target="_blank" href={e.url}>
           {Links[e.name]}
         </SocialLink>
       ))}

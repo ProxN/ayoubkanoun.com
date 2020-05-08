@@ -45,8 +45,8 @@ const ProjectsList = () => (
           {edges.map(({ node }, i) => {
             const { frontmatter, html } = node;
             return (
-              <Zoom duration={1000} delay={i * 200}>
-                <Project key={frontmatter.title} data={frontmatter} html={html} />
+              <Zoom duration={1000} delay={i * 200} key={frontmatter.title}>
+                <Project data={frontmatter} html={html} />
               </Zoom>
             );
           })}

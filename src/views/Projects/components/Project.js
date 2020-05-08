@@ -49,7 +49,7 @@ Project.propTypes = {
     title: PropTypes.string,
     demo: PropTypes.string,
     source: PropTypes.string,
-    image: PropTypes.string,
+    image: PropTypes.object,
     stack: PropTypes.array,
   }).isRequired,
   html: PropTypes.string.isRequired,
