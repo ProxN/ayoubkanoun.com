@@ -17,7 +17,7 @@ const Project = ({ data, html }) => {
   const { title, demo, source, image, stack } = data;
   return (
     <ProjectItem>
-      <ProjectImgContainer href={demo} target="_blank">
+      <ProjectImgContainer rel="noopener noreferrer" href={demo} target="_blank">
         <ProjectImage fluid={image.childImageSharp.fluid} alt={title} />
       </ProjectImgContainer>
       <ProjectContent>
