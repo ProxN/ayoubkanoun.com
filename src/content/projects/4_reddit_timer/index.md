@@ -1,7 +1,7 @@
 ---
 title: 'Reddit Timer'
-demo: 'https://valorant-stats.netlify.app/'
-source: 'https://github.com/ProxN/valorantApp'
+demo: 'https://reddit-timer.netlify.app/'
+source: 'https://github.com/ooloo-io/reddit-timer-ProxN'
 stack:
   - React
   - Styled-components
